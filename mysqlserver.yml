@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+    - name: install the mysql-server packages
+      apt: name=mysql-server state=present
